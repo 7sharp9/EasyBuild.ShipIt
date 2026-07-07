@@ -715,7 +715,7 @@ jobs:
 
 The name "ShipIt" is a reference to the famous phrase "Ship it!".
 
-It is also helps avoid future potential conflicts in case .NET team decide to add `dotnet release` in .NET CLI.
+It also helps avoid future potential conflicts in case the .NET team decides to add `dotnet release` in the .NET CLI.
 
 I felt like `shipit` was a fun and less risky in this regard.
 
