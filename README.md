@@ -17,8 +17,8 @@ Tool for generating changelog based on Git history based on [Conventional Commit
 
 ## How does it work?
 
-EasyBuild.ShipIt searchs for any `CHANGELOG.md`, for each of them look at the commits since the last
-released commit (based on the `last_commit_released` configuration) and generate a new changelog entry based on the commit messages.
+EasyBuild.ShipIt searches for any `CHANGELOG.md` files and, for each one, looks at the commits since the last
+released commit (based on the `last_commit_released` configuration) and generates a new changelog entry based on the commit messages.
 
 Then, if the `--skip-pull-request` option is not passed, it will create a pull request with the updated changelog file.
 
